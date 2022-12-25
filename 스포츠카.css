@@ -1,0 +1,111 @@
+body{
+  font-family: 'Black And White Picture', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
+  background-image: url(./스포츠카image/2페이지배경.gif);
+  background-size: contain;
+  }
+  .visually-hidden{
+    display: none;
+  }
+  
+  .hd{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./스포츠카image/불꽃해드배경.gif);
+    background-size:contain;
+  }
+  .hd a{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    
+  }
+  
+  .hd img{
+    width: 150px;
+    height: 100px;
+    border: 5px solid black;
+    
+  }
+
+
+ 
+ 
+  
+  .hd ul{
+    display: flex;
+    margin-top: 35px;
+  
+  }
+  
+  .hd>ul>a>li{
+    margin: 10px;
+    list-style: none;
+  }
+  .hd>ul>a>li:hover{
+    border: 1px solid red;
+    color: yellow;
+    font-size: 100px;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .hd>ul>a>li:active{
+    border: 1px solid green;
+    color: green;
+  }
+  
+  
+  
+  li:last-child{
+    margin: none;
+  }
+  
+  footer p{
+    color: aliceblue;
+  }
+  
+  /* footer p:focus{
+    border: 1px solid gray;
+    font-size: 20px;
+    
+  } */
+  footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 550px;
+  
+  }
+  footer>ul>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: color 500ms ease-in-out;
+  }
+  
+  footer>ul>a>li{
+    margin: 20px;
+    list-style: none;
+    border: 1px solid black;
+    background-image: url(./스포츠카image/불꽃해드배경.gif);
+    background-size: contain;
+    color:gray;
+    
+  }
+  footer>ul>a>li:hover{
+    border: 1px solid yellow;
+    color: aqua;
+    transform: rotate(90deg)
+  
+  }
+  
+  main{
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  main>a>img{
+    width: 250px;
+    height: 150px;
+    
+  }
